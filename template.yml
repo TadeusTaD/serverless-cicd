@@ -7,5 +7,5 @@ Resources:
     Type: AWS::Serverless::Function
     Properties:
       Handler: serverless.HelloWorld
-      Runtime: java8
-      Role: arn:aws:iam::532783220701:role/LambdaFullAccessRole
+      Runtime: java11
+      Role: arn:aws:iam::415175025477:role/LambdaFullAccessRole
